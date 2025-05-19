@@ -14,7 +14,12 @@
     <script>
         async function some_api(myForm) {
             // ここにコードを書く
-            document.getElementById("result").innerHTML += myForm.form_data.value+"<br />";
+            const endpoint = "https://api.dictionaryapi.dev/api/v2/entries/en";
+            const res = await fetch(`${endpoint}/${encodeURIComponent(word)}`);
+            const data = await aRes.json();
+            const meaning = data[0].meanings[0].definitions[0].definition;
+
+            document.getElementById("result").innerHTML += `<b>${word}</b><br>${meaning}<hr>`;
             document.apiform.reset();
         }
     </script>
