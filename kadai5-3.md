@@ -33,8 +33,14 @@
 	
 ### Q3-2. 各自で調査したAPIについて説明せよ。
 * APIの名称と参照URL
+* Free Dictionary API
+* https://dictionaryapi.dev/
 * エンドポイントと機能
+* https://api.dictionaryapi.dev/api/v2/entries/en/{word}
+* 英単語の意味などを表示してくれる
 * リクエストとレスポンスのフォーマット
+* get https://api.dictionaryapi.dev/api/v2/entries/en/
+* hello   "Hello!" or an equivalent greeting.
 ### Q3-3. 感想
 * 今回の課題で苦労したこと
 * 演習を通して理解できたこと
