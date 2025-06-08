@@ -42,6 +42,5 @@
 * get https://api.dictionaryapi.dev/api/v2/entries/en/
 * hello   "Hello!" or an equivalent greeting.
 ### Q3-3. 感想
-* 今回の課題で苦労したこと
-* 演習を通して理解できたこと
-* Web APIの利便性や課題など
+* 自分でコードを書かずにAPIから情報を取得できたり、機能を提供できたりシステム開発には欠かせない要素であると感じている
+* APIを使い慣れていないのでAPIキーなどの要素が難しく感じているが、慣れていければより良い開発ができると思う
